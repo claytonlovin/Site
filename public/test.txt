@@ -1,0 +1,1 @@
+Este arquivo testa se o servidor está servindo arquivos estáticos corretamente.
