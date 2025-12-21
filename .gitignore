@@ -29,3 +29,22 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Large files that shouldn't be in Git
+*.rpm
+*.zip
+*.tar.gz
+*.dmg
+*.exe
+*.msi
+*.deb
+
+# Large video files (use Git LFS if needed)
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Large images (consider optimizing)
+*.psd
+*.ai
