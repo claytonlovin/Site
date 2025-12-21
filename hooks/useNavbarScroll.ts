@@ -3,8 +3,8 @@ import { useEffect } from 'react'
 export function useNavbarScroll() {
   useEffect(() => {
     const handleScroll = () => {
-      const header = document.querySelector('header')
-      const heroSection = document.querySelector('#hero')
+      const header = document.querySelector('header') as HTMLElement
+      const heroSection = document.querySelector('#hero') as HTMLElement
       
       if (!heroSection || !header) return
       
