@@ -24,9 +24,9 @@ export default function Header() {
         {/* Botões de Ação */}
         <div className="flex items-center space-x-4">
           <a href="#cta-final" className="hidden sm:inline-block bg-white text-primary-orange px-4 py-2 rounded-full font-medium text-sm hover:bg-gray-100 transition duration-300">
-            Testar WInsight
+            Demonstração Grátis
           </a>
-          <button 
+          <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="md:hidden text-white hover:text-gray-200"
           >

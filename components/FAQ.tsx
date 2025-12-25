@@ -8,7 +8,7 @@ export default function FAQ() {
   const faqItems = [
     {
       question: "O WInsight precisa alterar meu Winthor ou ERP?",
-      answer: "Não. O WInsight conecta-se apenas para **leitura** de dados, via API segura. Ele não faz alterações ou modificações no seu banco de dados Winthor, garantindo total segurança e estabilidade."
+      answer: "Não. O WInsight conecta-se apenas para leitura de dados, via API segura. Ele não faz alterações ou modificações no seu banco de dados Winthor, garantindo total segurança e estabilidade."
     },
     {
       question: "Quem terá acesso aos meus dados de faturamento?",
@@ -33,11 +33,10 @@ export default function FAQ() {
 
         <div className="space-y-4">
           {faqItems.map((item, index) => (
-            <div 
+            <div
               key={index}
-              className={`bg-white p-6 rounded-xl shadow-md border border-gray-100 cursor-pointer transition-all duration-300 ${
-                openItem === index ? 'shadow-xl border-primary-orange/50' : ''
-              }`}
+              className={`bg-white p-6 rounded-xl shadow-md border border-gray-100 cursor-pointer transition-all duration-300 ${openItem === index ? 'shadow-xl border-primary-orange/50' : ''
+                }`}
               onClick={() => toggleItem(index)}
             >
               <div className="flex justify-between items-center font-semibold text-lg text-gray-700">

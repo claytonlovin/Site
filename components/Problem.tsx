@@ -6,7 +6,7 @@ export default function Problem() {
           O Risco Invisível no seu Winthor
         </h2>
         <p className="text-xl text-gray-500 mb-12 max-w-4xl mx-auto">
-          Todos os dias, empresas que usam Winthor perdem faturamento sem perceber. Vendas caem por cliente, região, mix ou vendedor — e o gestor só descobre quando o estrago já está feito.
+          Todos os dias, empresas que usam Winthor perdem faturamento sem perceber. Vendas caem por cliente, região, mix ou vendedor, e o gestor só descobre quando o impacto é inreverseível.
         </p>
 
         {/* Problemas Típicos */}
