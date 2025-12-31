@@ -39,44 +39,44 @@ export default function CTA() {
 
         {/* Formulário de Contato */}
         <form onSubmit={handleSubmit} className="space-y-4">
-          <input 
-            type="text" 
+          <input
+            type="text"
             name="nome"
-            placeholder="Seu Nome Completo" 
-            className="w-full p-4 rounded-lg bg-slate-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-orange transition" 
-            required 
+            placeholder="Seu Nome Completo"
+            className="w-full p-4 rounded-lg bg-slate-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-orange transition"
+            required
           />
-          <input 
-            type="text" 
+          <input
+            type="text"
             name="empresa"
-            placeholder="Nome da Sua Empresa" 
-            className="w-full p-4 rounded-lg bg-slate-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-orange transition" 
-            required 
+            placeholder="Nome da Sua Empresa"
+            className="w-full p-4 rounded-lg bg-slate-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-orange transition"
+            required
           />
-          <input 
-            type="text" 
+          <input
+            type="text"
             name="cargo"
-            placeholder="Seu Cargo/Função" 
-            className="w-full p-4 rounded-lg bg-slate-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-orange transition" 
-            required 
+            placeholder="Seu Cargo/Função"
+            className="w-full p-4 rounded-lg bg-slate-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-orange transition"
+            required
           />
-          <input 
-            type="email" 
+          <input
+            type="email"
             name="email"
-            placeholder="Seu Melhor E-mail" 
-            className="w-full p-4 rounded-lg bg-slate-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-orange transition" 
-            required 
+            placeholder="Seu Melhor E-mail"
+            className="w-full p-4 rounded-lg bg-slate-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-orange transition"
+            required
           />
-          <input 
-            type="tel" 
+          <input
+            type="tel"
             name="whatsapp"
-            placeholder="WhatsApp (DDD + Número)" 
-            className="w-full p-4 rounded-lg bg-slate-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-orange transition" 
-            required 
+            placeholder="WhatsApp (DDD + Número)"
+            className="w-full p-4 rounded-lg bg-slate-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-orange transition"
+            required
           />
-          
-          <button 
-            type="submit" 
+
+          <button
+            type="submit"
             disabled={state.submitting}
             className="w-full bg-primary-orange text-white font-bold px-8 py-4 rounded-full shadow-lg hover:bg-red-600 transition duration-300 transform hover:scale-[1.02] mt-6 disabled:opacity-50"
           >

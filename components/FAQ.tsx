@@ -7,8 +7,8 @@ export default function FAQ() {
 
   const faqItems = [
     {
-      question: "O WInsight precisa alterar meu Winthor ou ERP?",
-      answer: "Não. O WInsight conecta-se apenas para leitura de dados, via API segura. Ele não faz alterações ou modificações no seu banco de dados Winthor, garantindo total segurança e estabilidade."
+      question: "O WInsight precisa alterar dados do ERP?",
+      answer: "Não. O WInsight conecta-se apenas para leitura de dados, via API segura. Ele não faz alterações ou modificações no seu banco de dados ERP, garantindo total segurança e estabilidade."
     },
     {
       question: "Quem terá acesso aos meus dados de faturamento?",

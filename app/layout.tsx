@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'WInsight - Pare de Perder Faturamento Silenciosamente',
-  description: 'O WInsight monitora seu Winthor, detecta quedas críticas de vendas e avisa antes que o prejuízo aconteça — com insights claros e prontos para ação.',
+  description: 'O WInsight monitora seu ERP, detecta quedas críticas de vendas e avisa antes que o prejuízo aconteça — com insights claros e prontos para ação.',
   icons: {
     icon: [
       { url: '/favicon.ico' },

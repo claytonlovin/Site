@@ -9,7 +9,7 @@ export default function Solution() {
               Inteligência Comercial Imediata
             </h2>
             <p className="text-xl text-primary-orange font-medium mb-12 scroll-animate">
-              O WInsight conecta-se ao seu Winthor e transforma dados brutos em inteligência comercial imediata.
+              O WInsight conecta-se ao seu ERP e transforma dados brutos em inteligência comercial imediata.
             </p>
 
             <div className="space-y-6">
@@ -56,7 +56,7 @@ export default function Solution() {
 
           {/* Coluna Direita: Imagem */}
           <div className="flex justify-center items-center h-full">
-            <img src="/img/section-01.svg" alt="Ilustração objetivos" className="h-auto object-contain scroll-animate" style={{maxWidth: '20rem'}} />
+            <img src="/img/section-01.svg" alt="Ilustração objetivos" className="h-auto object-contain scroll-animate" style={{ maxWidth: '20rem' }} />
           </div>
         </div>
       </div>

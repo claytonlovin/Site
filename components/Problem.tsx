@@ -3,10 +3,10 @@ export default function Problem() {
     <section id="problema" className="py-20 sm:py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-dark-bg">
-          O Risco Invisível no seu Winthor
+          O Risco Invisível no seu ERP
         </h2>
         <p className="text-xl text-gray-500 mb-12 max-w-4xl mx-auto">
-          Todos os dias, empresas que usam Winthor perdem faturamento sem perceber. Vendas caem por cliente, região, mix ou vendedor, e o gestor só descobre quando o impacto é inreverseível.
+          Todos os dias, empresas que usam ERP perdem faturamento sem perceber. Vendas caem por cliente, região, mix ou vendedor, e o gestor só descobre quando o impacto é inreverseível.
         </p>
 
         {/* Problemas Típicos */}

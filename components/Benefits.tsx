@@ -5,7 +5,7 @@ export default function Benefits() {
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 text-dark-bg">
           Benefícios e Diferenciais que Geram Resultados
         </h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Card 1 */}
           <div className="bg-white border border-gray-200 p-8 rounded-xl shadow-md hover:shadow-lg transition scroll-animate">
@@ -46,7 +46,7 @@ export default function Benefits() {
                 </svg>
               </div>
               <div className="ml-4">
-                <h3 className="text-xl font-semibold text-dark-bg mb-2">Feito para Winthor</h3>
+                <h3 className="text-xl font-semibold text-dark-bg mb-2">Feito para ERP</h3>
                 <p className="text-gray-600">Integração nativa com parâmetros e métricas do seu ERP, sem alterações estruturais.</p>
               </div>
             </div>

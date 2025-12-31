@@ -47,7 +47,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-4 lg:col-span-1">
             <h4 className="text-lg font-semibold mb-4">Fale Conosco</h4>
             <p className="text-sm text-gray-400 mb-3">
-              (41) 9999-9999 <br />
+              (31) 9 9306 7230<br />
               contato@winsight.com.br
             </p>
 

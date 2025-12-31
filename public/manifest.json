@@ -1,7 +1,7 @@
 {
   "name": "WInsight - Inteligência Comercial",
   "short_name": "WInsight",
-  "description": "Monitore seu Winthor e detecte quedas de vendas antes que aconteçam",
+  "description": "Monitore seu ERP e detecte quedas de vendas antes que aconteçam",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

@@ -19,7 +19,7 @@ export default function Hero() {
           Pare de descobrir perda de faturamento tarde demais.
         </h1>
         <p className="text-lg sm:text-xl font-light mb-8 max-w-3xl mx-auto scroll-animate">
-          Do caos dos dados à precisão da venda. Tudo integrado ao seu Winthor com uso de Machine Learning.
+          Do caos dos dados à precisão da venda. Tudo integrado ao seu ERP com uso de Machine Learning.
         </p>
 
         {/* CTAs */}
